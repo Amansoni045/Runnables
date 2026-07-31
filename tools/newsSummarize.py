@@ -10,7 +10,7 @@ search_tool = TavilySearchResults(
     max_results=10,  
 ) 
 
-llm = ChatMistralAI(model="mistral-small-2506")
+llm = ChatMistralAI(model="mistral-small-2603")
 parser = StrOutputParser()
 
 prompt = ChatPromptTemplate.from_template(

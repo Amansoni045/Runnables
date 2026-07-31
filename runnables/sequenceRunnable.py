@@ -26,7 +26,7 @@ prompt = ChatPromptTemplate.from_template(
     "Explain {topic} in simple words"
 )
 
-model = ChatMistralAI(model="mistral-small-2506")
+model = ChatMistralAI(model="mistral-small-2603")
 
 parser = StrOutputParser()
 

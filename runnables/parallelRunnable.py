@@ -6,7 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnableParallel,RunnableLambda
 
-model = ChatMistralAI(model="mistral-small-2506")
+model = ChatMistralAI(model="mistral-small-2603")
 parser = StrOutputParser()
 
 short_prompt = ChatPromptTemplate.from_template(
