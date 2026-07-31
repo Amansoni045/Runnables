@@ -32,5 +32,5 @@ parser = StrOutputParser()
 
 chain = prompt | model | parser
 
-result = chain.invoke("Machine Learning")
+result = chain.invoke({"topic":"Machine Learning"})
 print(result)
